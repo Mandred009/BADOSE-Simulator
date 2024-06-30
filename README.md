@@ -9,7 +9,7 @@ Features of Version 1.0 (Release Version)
 
 1) **Multi-Agent Simulation:** Control and simulate up to 10 drones and 10 ships.
 2) **Realistic Ocean Simulation:** Utilizes Unity’s water system in HDRP for realistic ocean dynamics.
-3) **ROS 2 Integration:** Separate topics and nodes facilitate communication of required simulation parameters. This uses ROS2Unity repository for connection.
+3) **ROS 2 Integration:** Separate topics and nodes facilitate communication of required simulation parameters. This uses [ROS2Unity repository](https://github.com/RobotecAI/ros2-for-unity) for connection.
 4) **Wind Simulation:** Allows creation and advanced wind interactions through topics.
 5) **Camera Simulation:** Provides data streaming for drones.
 6) **Cross Compatibility:** Compatible with Windows and Linux (not tested on Windows yet).
