@@ -37,7 +37,7 @@ For this version, ROS 2 Humble has been used. Follow the steps on the [ROS 2 Ins
 
 ## Usage
 
-1) Check the presentation in the GitHub repository to find details about ROS 2 topics and message formats.
+1) Check this [presentation](https://www.canva.com/design/DAGJh_uABeU/ZCTeKt4B1WU2Zl_8WMUDkQ/edit?utm_content=DAGJh_uABeU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) to find details about ROS 2 topics and message formats.
 2) Open the BUILD01.x86_64 (exe) program to access the simulation setup main menu.
 3) Select the number of drones, boats, and other relevant details.
 4) Press the "Start Sim" button to enter the simulation.
