@@ -1,17 +1,18 @@
-BADOSE: Boat and Drone Ocean Simulated Environment
-About
+#BADOSE: Boat and Drone Ocean Simulated Environment
+
+###About
 
 BADOSE is an open-source simulator built with the Unity Engine and supported by a ROS 2 connection interface. The main aim of this simulator is to provide an environment capable of handling both drones and boats/ships along with the physics involving ocean turbulence and winds. This helps in creating control algorithms and advanced interactions between ships and drones, which can be deployed on real hardware for testing and deployment.
 Features of Version 1.0 (Release Version)
 
-    Multi-Agent Simulation: Control and simulate up to 10 drones and 10 ships.
-    Realistic Ocean Simulation: Utilizes Unity’s water system in HDRP for realistic ocean dynamics.
-    ROS 2 Integration: Separate topics and nodes facilitate communication of required simulation parameters. This uses ROS2Unity repository for connection.
-    Wind Simulation: Allows creation and advanced wind interactions through topics.
-    Camera Simulation: Provides data streaming for drones.
-    Cross Compatibility: Compatible with Windows and Linux (not tested on Windows yet).
+1) Multi-Agent Simulation: Control and simulate up to 10 drones and 10 ships.
+2) Realistic Ocean Simulation: Utilizes Unity’s water system in HDRP for realistic ocean dynamics.
+3) ROS 2 Integration: Separate topics and nodes facilitate communication of required simulation parameters. This uses ROS2Unity repository for connection.
+4) Wind Simulation: Allows creation and advanced wind interactions through topics.
+5) Camera Simulation: Provides data streaming for drones.
+6) Cross Compatibility: Compatible with Windows and Linux (not tested on Windows yet).
 
-Installation
+###Installation
 
 This version is built and tested on Ubuntu 22.04.
 A) Unity
@@ -39,7 +40,7 @@ Usage
     Press the "Start Sim" button to enter the simulation.
     Run ROS 2 scripts to subscribe or publish to the desired topic and control the simulation.
 
-Contributing to the Source Code
+###Contributing to the Source Code
 
 The GitHub repository for this simulator contains only Unity and Python scripts. Any changes or additions should be committed to the branch after raising an issue or request.
 
