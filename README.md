@@ -1,4 +1,5 @@
-![BADOSE LOGO](BADOSE icon.png)
+![BADOSE LOGO](BADOSE-Simulator/BADOSE icon.png)
+
 # BADOSE: Boat and Drone Ocean Simulated Environment
 
 ## About
