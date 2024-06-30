@@ -1,6 +1,6 @@
 # BADOSE: Boat and Drone Ocean Simulated Environment
 
-### About
+## About
 
 **BADOSE** is an open-source simulator built with the Unity Engine and supported by a ROS 2 connection interface. The main aim of this simulator is to provide an environment capable of handling both drones and boats/ships along with the physics involving ocean turbulence and winds. This helps in creating control algorithms and advanced interactions between ships and drones, which can be deployed on real hardware for testing and deployment.
 Features of Version 1.0 (Release Version)
@@ -12,7 +12,7 @@ Features of Version 1.0 (Release Version)
 5) **Camera Simulation:** Provides data streaming for drones.
 6) **Cross Compatibility:** Compatible with Windows and Linux (not tested on Windows yet).
 
-### Installation
+## Installation
 
 This version is built and tested on Ubuntu 22.04.
 **A) Unity**
@@ -31,7 +31,7 @@ Case 2: Customizing the Simulation
 
 For this version, ROS 2 Humble has been used. Follow the steps on the [ROS 2 Installation page](https://docs.ros.org/en/humble/Installation.html) to install it on your desktop.
 
-### Usage
+## Usage
 
 1) Check the presentation in the GitHub repository to find details about ROS 2 topics and message formats.
 2) Open the BUILD01.x86_64 (exe) program to access the simulation setup main menu.
@@ -39,13 +39,13 @@ For this version, ROS 2 Humble has been used. Follow the steps on the [ROS 2 Ins
 4) Press the "Start Sim" button to enter the simulation.
 5) Run ROS 2 scripts to subscribe or publish to the desired topic and control the simulation.
 
-### Contributing to the Source Code
+## Contributing to the Source Code
 
 The GitHub repository for this simulator contains only Unity and Python scripts. Any changes or additions should be committed to the branch after raising an issue or request.
 
 To change Unity assets or other data, please request permission for uploading the content to drive either by emailing (mandred.tech@gmail.com) or by raising an issue on the GitHub repository.
 
-### Features and Improvements for Future Versions
+## Features and Improvements for Future Versions
 
 1) **Custom Object Import:** Capability to import custom objects and arrange them in the world.
 2) **Tagging and Imaging:** Attaching tags or images to ships/boats, ground, and walls for navigation and object detection purposes.
